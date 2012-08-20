@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/TodoEditFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	    
+    <TextView
+        android:text="Todo Element"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    
+    
+    <EditText
+    android:id="@+id/name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/todoElement_name_hint"
+    android:selectAllOnFocus="true"
+    android:inputType="text" />
+    
+    <EditText
+    android:id="@+id/description"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:selectAllOnFocus="true"
+    android:hint="@string/todoElement_desc_hint"
+    android:inputType="textMultiLine" />
+    
+    <Button
+    android:id="@+id/button_acceptChanges"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/button_acceptChanges" />
+	
+</LinearLayout>

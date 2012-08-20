@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TodoListActivity!</string>
+    <string name="app_name">TodoList</string>
+    <string name="AddNewElement">&lt;Press to add New Element></string>
+    <string name="todoElement_name_hint">Name of this Todo</string>
+    <string name="todoElement_desc_hint">What is to do?</string>
+	<string name="button_acceptChanges">OK</string>
+	<string name="EmptyFragmentText">Select Any Todo Element to edit them</string>
+</resources>
